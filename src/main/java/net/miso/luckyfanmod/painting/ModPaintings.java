@@ -6,7 +6,7 @@ import net.minecraft.util.registry.Registry;
 import net.miso.luckyfanmod.LuckyFanMod;
 
 public class ModPaintings {
-    public static final PaintingVariant LUCKY = registerPainting("luckychan", new PaintingVariant(64,64));
+    public static final PaintingVariant LUCKYCHAN = registerPainting("luckychan", new PaintingVariant(16,16));
 
 
     private static PaintingVariant registerPainting(String name, PaintingVariant paintingVariant){
